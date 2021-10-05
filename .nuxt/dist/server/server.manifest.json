@@ -1,0 +1,33 @@
+{
+  "entry": "server.js",
+  "files": {
+    "components/contact-form.js": "components/contact-form.js",
+    "components/eli-and-aicor.js": "components/eli-and-aicor.js",
+    "components/eli-ilocx.js": "components/eli-ilocx.js",
+    "components/faq.js": "components/faq.js",
+    "components/get-in-touch.js": "components/get-in-touch.js",
+    "components/get-involved.js": "components/get-involved.js",
+    "components/header-eli.js": "components/header-eli.js",
+    "components/header.js": "components/header.js",
+    "components/newsletter-subscribe.js": "components/newsletter-subscribe.js",
+    "pages/aicor-bank.js": "pages/aicor-bank.js",
+    "pages/eli-ident.js": "pages/eli-ident.js",
+    "pages/index.js": "pages/index.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "components/contact-form.js": "components/contact-form.js.map",
+    "components/eli-and-aicor.js": "components/eli-and-aicor.js.map",
+    "components/eli-ilocx.js": "components/eli-ilocx.js.map",
+    "components/faq.js": "components/faq.js.map",
+    "components/get-in-touch.js": "components/get-in-touch.js.map",
+    "components/get-involved.js": "components/get-involved.js.map",
+    "components/header-eli.js": "components/header-eli.js.map",
+    "components/header.js": "components/header.js.map",
+    "components/newsletter-subscribe.js": "components/newsletter-subscribe.js.map",
+    "pages/aicor-bank.js": "pages/aicor-bank.js.map",
+    "pages/eli-ident.js": "pages/eli-ident.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "server.js": "server.js.map"
+  }
+}

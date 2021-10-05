@@ -1,0 +1,32 @@
+$grid-breakpoints: (
+  'xs': 0,
+  'sm': 408px,
+  'md': 768px,
+  'lg': 1200px,
+  'xl': 1410px,
+);
+
+// all colors
+$default-blue: #00a8ee;
+$dark-blue: #0a307c;
+$variant-blue: #007cee;
+$light-gray: #abaeba;
+$variant-light-blue: #eaf5ff;
+$gray: #626989;
+$variant-gray: #f4f7fe;
+$variant-gray2: #647588;
+$gold: #efd64c;
+
+$color-p: #626989;
+
+$menu-items-font-size: 16px;
+$menu-contact-us-button-font-size: 16px;
+
+$menu-contact-us-button-color: #0a307c;
+$menu-items-color: #0a307c;
+$menu-items-hover-color: #00a8ee;
+
+$max-screen-width: 1410px;
+$max-screen-width2: 1170px;
+$max-screen-width3: 690px;
+$max-screen-width4: 1200px;

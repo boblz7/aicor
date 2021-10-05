@@ -1,0 +1,23 @@
+[
+  {
+    "name": "aicor-bank",
+    "path": "/aicor-bank",
+    "component": "/Users/boblz/Desktop/Personal projects/aicor/pages/aicor-bank.vue",
+    "chunkName": "pages/aicor-bank",
+    "_name": "_19e7cb5a"
+  },
+  {
+    "name": "eli-ident",
+    "path": "/eli-ident",
+    "component": "/Users/boblz/Desktop/Personal projects/aicor/pages/eli-ident.vue",
+    "chunkName": "pages/eli-ident",
+    "_name": "_d2575fa6"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/boblz/Desktop/Personal projects/aicor/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_1c8d157a"
+  }
+]

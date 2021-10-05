@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*,
+html body .v-application,
+html body .v-application .title {
+  font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+  background: #e5e5e5;
+}
+
+// img {
+//   width: 100%;
+//   height: 100%;
+// }
+
+//colors
+.color-white,
+.v-application a.color-white {
+  color: #fff;
+}
+.color-black {
+  color: #000;
+}
+.color-default-blue,
+.v-application a.color-default-blue {
+  color: $default-blue;
+}
+.color-dark-blue {
+  color: $dark-blue;
+}
+.color-gray {
+  color: $gray;
+}
+.color-light-gray {
+  color: $light-gray;
+}
+
+//background colors
+.background-default-blue {
+  background: $default-blue;
+}
+.background-white {
+  background: white;
+}
+
+//font-weight
+.weight-300 {
+  font-weight: 300;
+}
+.weight-600 {
+  font-weight: 600;
+}
+
+.background-dark-blue {
+  background: $dark-blue;
+}
+
+h1 {
+  font-size: 64px;
+  color: $dark-blue;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 600;
+  color: $dark-blue;
+}
+
+a,
+.v-application a {
+  text-decoration: none;
+
+  &.classic {
+    width: fit-content;
+    background: $default-blue;
+    padding: 18px 30px;
+    box-shadow: 0px 26px 30px -10px rgba(0, 21, 122, 0.2);
+    border-radius: 10px;
+    font-weight: 600;
+  }
+
+  &.outlined {
+    background-color: transparent;
+    border: 2px solid $default-blue;
+
+    &__white {
+      background-color: transparent;
+      border: 2px solid white;
+    }
+  }
+
+  &.eli {
+    background: $variant-light-blue;
+    color: $dark-blue;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+
+    img {
+      width: 12px;
+    }
+  }
+
+  &.shadow-none {
+    box-shadow: none;
+  }
+
+  &.label {
+    font-size: 14px;
+  }
+  &.color-gray {
+    color: $gray;
+  }
+}
+
+button {
+  font-size: $menu-contact-us-button-font-size;
+
+  &.classic {
+    width: fit-content;
+    background: $default-blue;
+    padding: 18px 30px;
+    box-shadow: 0px 26px 30px -10px rgba(0, 21, 122, 0.2);
+    border-radius: 10px;
+    font-weight: 600;
+  }
+
+  &.outlined {
+    background-color: transparent;
+    border: 2px solid $default-blue;
+
+    &__white {
+      background-color: transparent;
+      border: 2px solid white;
+    }
+  }
+
+  &.golden {
+    background: $gold;
+  }
+
+  &.shadow-none {
+    box-shadow: none;
+  }
+
+  &.white {
+    background: white;
+  }
+
+  &.full-width {
+    width: 100%;
+  }
+
+  &.eli {
+    background: $variant-light-blue;
+    color: $dark-blue;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+
+    img {
+      width: 12px;
+    }
+  }
+}
+
+p {
+  font-size: 16px;
+  color: $gray;
+}
+
+label {
+  font-size: 14px;
+}
+
+.form-container {
+  .v-input__slot {
+    .v-text-field__slot {
+      label {
+        color: $dark-blue;
+        font-weight: 500;
+      }
+
+      input,
+      textarea {
+        color: $light-gray;
+        padding: 0;
+        margin-top: 10px;
+        margin-bottom: 13px;
+      }
+    }
+  }
+}
+.aicor-checkbox {
+  .v-input__slot {
+    .v-label {
+      color: $dark-blue;
+      font-size: 14px;
+      font-weight: 300;
+    }
+  }
+}
+
+form
+  .v-text-field.v-text-field--enclosed:not(.v-text-field--rounded)
+  > .v-input__control
+  > .v-input__slot {
+  padding: 18px 30px;
+}
